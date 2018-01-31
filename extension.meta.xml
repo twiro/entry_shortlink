@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="entry_shortlink" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+	<name>Entry Shortlink</name>
+	<description>Attach simple ID-based shortlinks to the entries in Symphony's publish area</description>
+	<repo type="github">https://github.com/twiro/entry_shortlink</repo>
+	<url type="discuss">https://github.com/twiro/entry_shortlink/issues</url>
+	<types>
+		<type>Field</type>
+		<type>Preview</type>
+		<type>Workflow</type>
+	</types>
+	<authors>
+		<author>
+			<name github="twiro">Roman Klein</name>
+			<website>https://github.com/twiro</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0.0" date="2018-01-31" min="2.4.0" max="2.x.x">
+			- Initial release
+		</release>
+	</releases>
+</extension>
