@@ -1,0 +1,18 @@
+
+/**
+ * CSS for shortlink
+ */
+
+.field-entry_shortlink {
+	display: none;
+}
+
+.actions .entry-shortlink {
+	background-color: #4d78b4;
+	background-image: linear-gradient(to bottom, #6f92c2 0%, #6f92c2 35%, #4d78b4 65%, #4d78b4 100%);
+	color: #fff;
+}
+
+.actions .entry-shortlink:hover {
+	background-image: linear-gradient(to bottom, #6f92c2 0%, #6f92c2 15%, #4d78b4 65%, #4d78b4 100%);
+}
