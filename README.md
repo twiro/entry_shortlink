@@ -1,6 +1,6 @@
 # Entry Shortlink
 
-#### Attach simple ID-based shortlinks to the entries in Symphony's publish area.
+#### Attach simple ID-based shortlinks to entries in Symphony's publish area.
 
 This extension offers a lightweight and performance-oriented alternative to the existing frontend entry link solutions. It's closely related to the [Link Preview][1] extension as it also creates links dynamically at pageload instead of storing them in the database (the way the [Entry URL Field][2] extension does) but differs in that it only uses the ID of an entry as dynamic part of the URL. This results in faster loading times for publish tables as all frontend links can be generated without having to fetch the complete data of all entries.
 

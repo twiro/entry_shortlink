@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension id="entry_shortlink" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Entry Shortlink</name>
-	<description>Attach simple ID-based shortlinks to the entries in Symphony's publish area</description>
+	<description>Attach simple ID-based shortlinks to entries in Symphony's publish area</description>
 	<repo type="github">https://github.com/twiro/entry_shortlink</repo>
 	<url type="discuss">https://github.com/twiro/entry_shortlink/issues</url>
 	<types>
@@ -16,6 +16,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.0.1" date="2018-02-02" min="2.4.0" max="2.x.x">
+			- Added missing functions (for saving entries)
+		</release>
 		<release version="1.0.0" date="2018-01-31" min="2.4.0" max="2.x.x">
 			- Initial release
 		</release>
