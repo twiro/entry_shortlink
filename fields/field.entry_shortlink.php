@@ -92,6 +92,10 @@ class FieldEntry_Shortlink extends Field
         return false;
     }
 
+    /*------------------------------------------------------------------------*/
+    /* SECTIONS : PROCESS & SAVE FIELD DATA
+    /*------------------------------------------------------------------------*/
+
     /**
      * SET FROM POST
      *
@@ -158,7 +162,7 @@ class FieldEntry_Shortlink extends Field
     }
 
     /*------------------------------------------------------------------------*/
-    /* UI : SECTIONS
+    /* SECTIONS : UI
     /*------------------------------------------------------------------------*/
 
     /**
@@ -234,7 +238,7 @@ class FieldEntry_Shortlink extends Field
     }
 
     /*------------------------------------------------------------------------*/
-    /* UI : TABLE / PUBLISH
+    /* PUBLISH AREA : UI
     /*------------------------------------------------------------------------*/
 
     /**
@@ -326,6 +330,34 @@ class FieldEntry_Shortlink extends Field
             $label = self::DEFAULT_SHORTLINK_LABEL;
         }
         return $label;
+    }
+
+    /*------------------------------------------------------------------------*/
+    /* PROCESS & SAVE ENTRY DATA
+    /*------------------------------------------------------------------------*/
+
+    /**
+     * CHECK POST FIELD DATA
+     *
+     * @since version 1.0.1
+     */
+
+    public function checkPostFieldData($data, &$message, $entry_id = null)
+    {
+        $message = NULL;
+        return self::__OK__;
+    }
+
+    /**
+     * PROCESS RAW FIELD DATA
+     *
+     * @since version 1.0.1
+     */
+
+    public function processRawFieldData($data, &$status, &$message = null, $simulate = false, $entry_id = null)
+    {
+        $status = self::__OK__;
+        return $data;
     }
 
     /*------------------------------------------------------------------------*/
