@@ -3,7 +3,8 @@
 	<name>Entry Shortlink</name>
 	<description>Attach simple ID-based shortlinks to entries in Symphony's publish area</description>
 	<repo type="github">https://github.com/twiro/entry_shortlink</repo>
-	<url type="discuss">https://github.com/twiro/entry_shortlink/issues</url>
+	<url type="discuss">http://www.getsymphony.com/discuss/thread/113753/</url>
+	<url type="issues">https://github.com/twiro/entry_shortlink/issues</url>
 	<types>
 		<type>Field</type>
 		<type>Preview</type>
