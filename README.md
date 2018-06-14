@@ -45,12 +45,13 @@ This extension is a variation of the [Link Preview][1]-extension by [deuxhuithui
 [4]: https://deuxhuithuit.com/
 
 
-<footer style="padding-top: 1.5rem;">
-	<nav>
-		<a href="http://www.getsymphony.com"><small>Symphony CMS</small></a>
+<footer>
+	<sup>
+		<br/>
+		<a href="http://www.getsymphony.com">Symphony CMS</a>
 		<i>•</i>
-		<a href="http://symphonyextensions.com"><small>Symphony Extensions</small></a>
+		<a href="http://symphonyextensions.com">Symphony Extensions</a>
 		<i>•</i>
-		<a href="https://github.com/symphonists/symphony-extensions-network"><small>Symphony Extensions Network</small></a>
-	</nav>
+		<a href="https://github.com/symphonists/symphony-extensions-network">Symphony Extensions Network</a>
+	</sup>
 </footer>
