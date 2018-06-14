@@ -43,3 +43,14 @@ This extension is a variation of the [Link Preview][1]-extension by [deuxhuithui
 [2]: http://symphonyextensions.com/extensions/entry_url_field/
 [3]: http://symphonyextensions.com/extensions/page_headers/
 [4]: https://deuxhuithuit.com/
+
+
+<footer style="padding-top: 1.5rem;">
+	<nav>
+		<a href="http://www.getsymphony.com"><small>Symphony CMS</small></a>
+		<i>•</i>
+		<a href="http://symphonyextensions.com"><small>Symphony Extensions</small></a>
+		<i>•</i>
+		<a href="https://github.com/symphonists/symphony-extensions-network"><small>Symphony Extensions Network</small></a>
+	</nav>
+</footer>
